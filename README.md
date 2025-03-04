@@ -1,6 +1,6 @@
 # Training Data Influence Analysis
 
-This project is part of Assignment 2 for Module 2, focused on understanding the influence of training data on model outputs. The goal is to compute and analyze the influence of individual data points, groups of data points, and Shapley values for a binary classification task using the Adult Income dataset.
+This project focuses on understanding the influence of training data on model outputs. The goal is to compute and analyze the influence of individual data points, groups of data points, and Shapley values for a binary classification task using the Adult Income dataset.
 
 ## Project Structure
 ```
