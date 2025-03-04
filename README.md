@@ -5,26 +5,26 @@ This project focuses on understanding the influence of training data on model ou
 ## Project Structure
 ```
 adult_income_project/
-├── data/                 # Folder for datasets
-│   ├── adult.data       # Original training data from UCI
-│   ├── adult.test       # Original test data from UCI
-│   ├── adult.names      # Dataset description from UCI
-│   ├── X_train.csv      # Preprocessed training features
-│   ├── y_train.csv      # Preprocessed training labels
-│   ├── X_test.csv       # Preprocessed test features
-│   └── y_test.csv       # Preprocessed test labels
-├── models/               # Folder for saved models
-│   └── baseline_model.pkl # Trained baseline model (saved using joblib)
-├── scripts/              # Folder for Python scripts
-│   ├── preprocess.py     # Script for data preprocessing
-│   ├── train.py          # Script for training the baseline model
-│   └── influence.py      # Script for LOO, group, and Shapley influence
-├── reports/              # Folder for project report
-│   ├── roc_curve.png      # ROC Curve
+├── data/                               # Folder for datasets
+│   ├── adult.data                      # Original training data from UCI
+│   ├── adult.test                      # Original test data from UCI
+│   ├── adult.names                     # Dataset description from UCI
+│   ├── X_train.csv                     # Preprocessed training features
+│   ├── y_train.csv                     # Preprocessed training labels
+│   ├── X_test.csv                      # Preprocessed test features
+│   └── y_test.csv                      # Preprocessed test labels
+├── models/                             # Folder for saved models
+│   └── baseline_model.pkl              # Trained baseline model
+├── scripts/                            # Folder for Python scripts
+│   ├── preprocess.py                   # Script for data preprocessing
+│   ├── train.py                        # Script for training the baseline model
+│   └── influence.py                    # Script for LOO, group, and Shapley influence
+├── reports/                            # Folder for project report
+│   ├── roc_curve.png                   # ROC Curve
 │   ├── groupsize_vs_influence.png      # Group Size vs Influence graph
-│   ├── shapley_distribution.png       # Shapley Distribution graph
-│   └── report.pdf       # Preprocessed test labels
-├── README.md             # Project README file
+│   ├── shapley_distribution.png        # Shapley Distribution graph
+│   └── report.pdf                      # Preprocessed test labels
+├── README.md                           # Project README file
 ```
 
 ## Dataset
